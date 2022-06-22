@@ -618,14 +618,19 @@ pre code {
     padding-right: .75rem;
     padding-left: .75rem;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    background-image: url("/src/assets/images/Background\ naranja.png") !important;
 }
 
 .row {
     display: flex;
-    flex-wrap: wrap;
-    margin-right: -.75rem;
-    margin-left: -.75rem
+    flex-wrap: nowrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+    margin-bottom: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start
 }
 
 .no-gutters {
@@ -1657,7 +1662,8 @@ pre code {
 
 .table-bordered thead td,
 .table-bordered thead th {
-    border-bottom-width: 2px
+    border-bottom-width: 2px;
+    color: #344185;
 }
 
 .table-borderless tbody+tbody,
@@ -6815,9 +6821,9 @@ button.bg-dark:hover {
     background-color: #42444e !important
 }
 
-.bg-white {
+/* .bg-white {
     background-color: #fff !important
-}
+} */
 
 .bg-transparent {
     background-color: transparent !important
@@ -8157,7 +8163,8 @@ button.bg-dark:hover {
 
 .mb-0,
 .my-0 {
-    margin-bottom: 0 !important
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
 }
 
 .ml-0,
@@ -8251,7 +8258,7 @@ button.bg-dark:hover {
     margin-right: 1.5rem !important
 }
 
-.mb-4,
+
 .my-4 {
     margin-bottom: 1.5rem !important
 }
@@ -8568,11 +8575,13 @@ button.bg-dark:hover {
     margin-bottom: auto !important
 }
 
-.ml-auto,
-.mx-auto {
-    margin-left: auto !important
+.ml-auto {
+    margin-left: auto !important;
 }
-
+.mx-auto{
+    margin-right: auto !important;
+    display: block;
+}
 @media (min-width:576px) {
     .m-sm-0 {
         margin: 0 !important
@@ -10671,11 +10680,13 @@ a:focus {
 }
 
 #wrapper {
-    display: flex
+    display: flex;
+    background-image: url(/src/assets/images/Background\ naranja.png) !important;
+    
 }
 
 #wrapper #content-wrapper {
-    background-color: #f8f9fc;
+    /* background-color: #f8f9fc; */
     width: 100%;
     overflow-x: hidden
 }
@@ -10907,6 +10918,10 @@ a:focus {
     color: #5a5c69 !important
 }
 
+.text-blue-800 {
+    color: #344185 !important
+}
+
 .text-gray-900 {
     color: #3a3b45 !important
 }
@@ -11048,7 +11063,8 @@ a:focus {
 }
 
 .topbar {
-    height: 4.375rem
+    height: 4.375rem;
+    background-color: #344185;
 }
 
 .topbar #sidebarToggleTop {

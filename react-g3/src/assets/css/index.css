@@ -28,7 +28,7 @@ h5.card-title {
 }
 
 .contenedor-catalog {
- background: url(../images/background.jpg);
+  background-image: url("/src/assets/images/Background\ naranja.png") !important;
  background-size:contain;
  display: flex;
  width: 100%;

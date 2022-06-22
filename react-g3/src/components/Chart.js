@@ -18,13 +18,13 @@ function Chart() {
         <div className="card shadow mb-4">
             <div className="card-body">
                 <div className="table-responsive">
-                    <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0">
-                        <thead>
+                    <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0" >
+                        <thead >
                             <tr>
-                                <th>Producto</th>
-                                <th>Id</th>
-                                <th>Precio</th>
-                                <th>Categoria</th>
+                                <th>Producto:</th>
+                                <th>Id:</th>
+                                <th>Precio:</th>
+                                <th>Categoria:</th>
                             </tr>
                         </thead>
 

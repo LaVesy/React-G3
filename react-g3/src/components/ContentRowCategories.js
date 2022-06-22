@@ -26,7 +26,7 @@
     }, [])
 
     let productCount = {
-      title: 'Total of Products',
+      title: 'Total de productos',
       color: 'primary',
       cuantity: products.count || "loading...",
       icon: 'fas fa-gift',
@@ -35,21 +35,16 @@
     /* <!-- Total awards --> */
 
     let userCount = {
-      title: 'Total of Users',
+      title: 'Total de usuarios',
       color: 'success',
       cuantity: users.count || 3,
       icon: 'fas fa-user',
     }
     /* <!-- Actors quantity --> */
 
-    let CategoryCount = {
-      title: 'Total of Categories',
-      color: 'warning',
-      cuantity: products.countByCategory?.length || 2, //! agregar total de categorías products.countByCategory.length
-      icon: 'fas fa-restroom',
-    }
+    
 
-  let cartProps = [productCount, userCount, CategoryCount]
+  let cartProps = [productCount, userCount]
 
   console.log(/* prods.countByCategory.length */)
 

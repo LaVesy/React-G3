@@ -55,7 +55,7 @@ function SideBar() {
         <li className="nav-item active">
           <Link className="nav-link" to="/">
             <i className="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard - Sport Shoes</span>
+            <span>Dashboard - Woof!</span>
           </Link>
         </li>
 
@@ -69,7 +69,7 @@ function SideBar() {
         <li className="nav-item">
           <Link className="nav-link" to="/Catalog">
             <i className="fas fa-fw fa-folder"></i>
-            <span>Catalog</span>
+            <span>Catalogo</span>
           </Link>
         </li>
 
@@ -77,7 +77,7 @@ function SideBar() {
         <li className="nav-item">
           <Link className="nav-link" to="/LastProduct">
             <i className="fas fa-fw fa-chart-area"></i>
-            <span>Last Product</span>
+            <span>Ultimo producto</span>
           </Link>
         </li>
 
@@ -85,7 +85,7 @@ function SideBar() {
         <li className="nav-item nav-link">
           <Link className="nav-link" to="/ContactUs">
             <i className="fas fa-fw fa-table"></i>
-            <span>Contact Us </span>
+            <span>Contactanos</span>
           </Link>
         </li>
 
@@ -93,7 +93,7 @@ function SideBar() {
         <li className="nav-item nav-link">
           <Link className="nav-link" to="/ContentRowCategories">
             <i className="fas fa-fw fa-table"></i>
-            <span>Categories </span>
+            <span>Categorias</span>
           </Link>
         </li>
 
